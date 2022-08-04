@@ -48,13 +48,9 @@
 			}
 		},
 		"videos": {
-			"video": {
-				"title": {
-					"loremWords": {
-						"minLength": 5,
-						"maxLength": 20
-					}
-				}
+			"loremWords": {
+				"minLength": 5,
+				"maxLength": 20
 			}
 		}
 	},
