@@ -1,40 +1,48 @@
 {
-  "Investmentcost": {
-    "acquisitionCampaigns": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    },
-    "abTestingCost": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    },
-    "abTestingNumber": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    },
-    "paidFollowersGained": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    },
-    "impressionsGenerated": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    },
-    "total": {
-      "int": {
-        "min": 1000,
-        "max": 100000
-      }
-    }
-  }
+	"Case": {
+		"case": {
+			"int": {
+				"min": 1,
+				"max": 4
+			}
+		}
+	},
+	"Investmentcost": {
+		"acquisitionCampaigns": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"abTestingCost": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"abTestingNumber": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"paidFollowersGained": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"impressionsGenerated": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"total": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		}
+	}
 }
