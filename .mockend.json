@@ -18,6 +18,21 @@
 			}
 		}
 	},
+	"Investment": {
+		"month": {
+			"dateTime": {
+				"min": "2010-01-01T00:00:00Z",
+				"max": "2020-12-31T23:59:59Z"
+			}
+		},
+		"total": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		}
+
+	},
 	"Investmentcost": {
 		"acquisitionCampaigns": {
 			"int": {
