@@ -1,5 +1,5 @@
 {
-  "User": {
+  "investmentcost": {
     "acquisitionCampaigns": {
       "int": {
         "min": 1000,
