@@ -46,6 +46,16 @@
 				"min": 1000,
 				"max": 100000
 			}
+		},
+		"videos": {
+			"video": {
+				"title": {
+					"loremWords": {
+						"minLength": 5,
+						"maxLength": 20
+					}
+				}
+			}
 		}
 	},
 	"Follower": {
