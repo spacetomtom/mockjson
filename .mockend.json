@@ -29,6 +29,25 @@
 			}
 		}
 	},
+	"View": {
+		"month": {
+			"string": ["2022-01"]
+		},
+		"total": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		}
+	},
+	"Viewdetail": {
+		"total": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		}
+	},
 	"Follower": {
 		"month": {
 			"string": ["2022-01"]
