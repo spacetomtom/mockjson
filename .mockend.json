@@ -1,8 +1,10 @@
 {
 	"Case": {
-		"int": {
-			"min": 1,
-			"max": 4
+		"case": {
+			"int": {
+				"min": 1,
+				"max": 4
+			}
 		}
 	},
 	"User": {
