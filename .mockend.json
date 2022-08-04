@@ -30,13 +30,40 @@
 		}
 	},
 	"Investmentdetail": {
-		"month": {
-			"string": ["2022-01"]
-		},
 		"total": {
 			"int": {
 				"min": 1000,
 				"max": 100000
+			}
+		},
+		"acquisitionCampaigns": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"abTest": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"paidFollowersGained": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"impressionGenerated": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"abTestRun": {
+			"int": {
+				"min": 1,
+				"max": 50
 			}
 		}
 	},
