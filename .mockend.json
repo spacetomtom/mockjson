@@ -41,16 +41,34 @@
 		}
 	},
 	"Viewdetail": {
-		"total": {
+		"videoView": {
 			"int": {
 				"min": 1000,
 				"max": 100000
 			}
 		},
-		"videos": {
+		"videoName": {
 			"loremWords": {
 				"minLength": 5,
 				"maxLength": 20
+			}
+		},
+		"publishedAt": {
+			"dateTime": {
+				"min": "2010-01-01T00:00:00Z",
+				"max": "2020-12-31T23:59:59Z"
+			}
+		},
+		"thumbnail": {
+			"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+		},
+		"isCrosspost": {
+			"boolean": {}
+		},
+		"crossPostedAt": {
+			"dateTime": {
+				"min": "2010-01-01T00:00:00Z",
+				"max": "2020-12-31T23:59:59Z"
 			}
 		}
 	},
