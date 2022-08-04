@@ -19,7 +19,9 @@
 		}
 	},
 	"Investment": {
-		"month": "id"
+		"month": {
+			"string": ["2022-01"]
+		}
 	},
 	"Investmentcost": {
 		"acquisitionCampaigns": {
