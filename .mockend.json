@@ -13,6 +13,12 @@
 				"minLength": 5,
 				"maxLength": 20
 			}
+		},
+		"managerName": {
+			"loremWords": {
+				"minLength": 5,
+				"maxLength": 20
+			}
 		}
 	},
 	"Investmentcost": {
