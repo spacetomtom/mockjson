@@ -40,6 +40,50 @@
 			}
 		}
 	},
+	"Accountbalancedetail": {
+		"grossRevenue": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"investment": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"netRevenue": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"monthBalence": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"totalAccountBalance": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"AdvanceToRecoup": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		},
+		"total": {
+			"int": {
+				"min": 1000,
+				"max": 100000
+			}
+		}
+	},
 	"View": {
 		"month": {
 			"string": ["2022-01"]
